@@ -6,7 +6,10 @@ public class Main{
         Scanner entrada = new Scanner(System.in);
         int operacion = 0;
         double num1 = 0, num2 = 0;
+        String nombre = "";
 
+        System.out.println("Introduce tu nombre:");
+        nombre = entrada.nextLine();
         //menu
         System.out.println("CALULADORA");
         System.out.println("***Operaciones***");
@@ -44,8 +47,10 @@ public class Main{
 
         }
 
+        System.out.println("Gracias por usar el programa " + nombre);
+
         //cerramos el metodo Scanner
         entrada.close();
         
     }
-}       
+} 
