@@ -30,9 +30,9 @@ public class ListaLigada {
 
     //eliminar nodo
     public int eliminarNodo(int valor){
-        if (cabeza == null) return 0; // Lista vacía
+        if (cabeza == null) return 0; 
 
-        if (cabeza.informacion == valor) { // Eliminar la cabeza
+        if (cabeza.informacion == valor) { 
             int eliminado = cabeza.informacion;
             cabeza = cabeza.siguiente;
             tamano--;
