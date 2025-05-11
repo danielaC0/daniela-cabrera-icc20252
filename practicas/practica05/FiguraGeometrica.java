@@ -6,8 +6,8 @@ public abstract class FiguraGeometrica{
         this.base = base;
         this.altura = altura;
     }
-    public abstract double calculoPerimetro();
-    public abstract double calculoArea();
+    public double calculoPerimetro();
+    public double calculoArea();
     //metodo toString()
     @Override
     //metodo abstracto por ser figuras distintas 
